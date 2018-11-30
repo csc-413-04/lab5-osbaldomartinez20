@@ -68,3 +68,14 @@ html, body{
   width: 900px;
   margin: 0 auto;
 }
+
+.messages{
+  padding: 20px;
+  overflow-y: scroll;
+  flex-grow: 2;
+  background: wheat;
+}
+
+.message {
+  background: tomato;
+}
