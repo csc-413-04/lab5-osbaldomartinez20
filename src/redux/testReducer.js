@@ -11,7 +11,7 @@ const testReducer = (state = initialState, action) => {
             });
         case 'IMPORT_MESSAGE':
             const newMessages = state.messages.slice(0);
-            newMessages.push(action.message);
+            newMessages.unshift(action.message);
             return Object.assign({}, state, {
                 messages: newMessages,
             });
