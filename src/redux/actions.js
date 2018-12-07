@@ -9,6 +9,6 @@ export const loadAllMessages = (messages) => ({
 });
 
 export const importMessage = (message) => ({
-    type: 'IMPORT_MESAGE',
+    type: 'IMPORT_MESSAGE',
     message,
 });

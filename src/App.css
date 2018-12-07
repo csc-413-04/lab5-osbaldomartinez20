@@ -74,6 +74,7 @@ html, body{
   overflow-y: scroll;
   flex-grow: 2;
   background: wheat;
+  height: 200px;
 }
 
 .message {
